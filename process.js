@@ -19,7 +19,7 @@ function send(result_send, form_1, url) {
 		},
 		error: function(response) { //Данные не отправлены
 			result = $.parseJSON(response);
-			$('#result_send').html(result);
+			$('#result_send').html('Даныне не переданы');
 		}
 	});
 }
