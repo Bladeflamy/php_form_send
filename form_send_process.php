@@ -5,9 +5,9 @@ if (htmlspecialchars($_POST["number"])) {
 	// Получаем переменные  из поля с именем NUMBER / QUANTITY и предохраняемся с помощью htmlspecialchars
 	$number = htmlspecialchars($_POST["number"]);
 	$quantity = htmlspecialchars($_POST["quantity"]);
-	$myemail = "vitaly@avtobrok.by"; // Кому @
+	$myemail = "@ кому"; // Кому @
 	$tema ='Тема письма'; // Тема письма
-	$from = "From: brokbrest.by <webmaster@brokbrest.by>"; // От кого @
+	$from = "From: от кого <@ от кого>"; // От кого @
 
 	// Текст сообщения для отправки
 	$message_to_myemail = "Тут мы пишем текст сообщения:
